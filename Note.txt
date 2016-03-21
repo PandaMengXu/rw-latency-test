@@ -1,0 +1,8 @@
+Observation 1:
+    After we flush an array, the read latency of whole array is smaller than the write latency of the same array; (with same access pattern);
+        Read latency for whole array: 1889us
+        Write latency for whole array: 3419us
+
+Observation 2:
+    If we do some simple operation after we read/write an array item, the relation of the latency of reading/writing the whole array changes:
+        Read latency (6329us) for whole array is LARGER Than the write latency (2350us) of the whole array.
